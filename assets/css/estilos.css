@@ -1,0 +1,232 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../images/depositphotos_572505600-stock-illustration-drawn-portrait-thomas-edison-famous.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section.title {
+    width: 40%;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+section.title div {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.title div h1 {
+    font-size: 40px;
+}
+
+section.title div sub {
+    margin-left: auto;
+}
+
+section.title div > :is(h1, sub) {
+    color: #320b03;
+}
+
+section.biografia {
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.biografia div {
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    height: 50%;
+    max-height: 50%;
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #441b14, -4px -4px 5px #441b14;
+    text-align: justify;
+}
+
+section.biografia div img {
+    width: 35%;
+    height: 100%;
+}
+
+section.biografia div span {
+    height: 100%;
+    font-size: 12px;
+    overflow: auto;
+    padding: 0 5px;
+}
+
+section.fonografo {
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.fonografo div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    height: 60%;
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #441b14, -4px -4px 5px #441b14;
+    text-align: justify;
+    align-items: center;
+}
+
+section.fonografo div img {
+    width: 40%;
+    height: 60%;
+}
+
+section.fonografo div span {
+    height: 100%;
+    font-size: 12px;
+    overflow: auto;
+    padding: 0 5px;
+}
+
+section.quinetoscopio {
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.quinetoscopio div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    height: 60%;
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #441b14, -4px -4px 5px #441b14;
+    text-align: justify;
+    align-items: center;
+}
+
+section.quinetoscopio div img {
+    width: 40%;
+    height: 60%;
+}
+
+section.quinetoscopio div span {
+    height: 100%;
+    font-size: 12px;
+    overflow: auto;
+    padding: 0 5px;
+}
+
+section.contacto {
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contacto > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    height: 60%;
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #441b14, -4px -4px 5px #441b14;
+    text-align: justify;
+    align-items: center;
+}
+
+section.contacto > div > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ol {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+nav ol li {
+    list-style: none;
+}
+
+nav ol li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #441b14;
+    font-weight: bold;
+    transition: all 1;
+}
+
+nav ol li a:hover {
+    color: #320b03;
+    font-size: 17px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: flex-end;
+    color: #693c35;
+    /* border: 10px red solid; */
+    /* border: red 30px; */
+}
